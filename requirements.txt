@@ -1,0 +1,103 @@
+# Installed packages for Java Selenium Testing
+
+# Java Development Kit (already installed)
+# openjdk-21
+
+# Testing Frameworks
+junit-platform-console-standalone-1.10.1.jar
+mysql-connector-j-8.2.0.jar
+
+# Database
+mariadb-server
+mariadb-client
+
+# Selenium and Browser Automation
+maven
+chromium
+chromium-driver
+chromium-common
+chromium-sandbox
+
+# Selenium Java Dependencies (managed by Maven in pom.xml)
+# org.seleniumhq.selenium:selenium-java:4.27.0
+# org.testng:testng:7.8.0
+# net.sourceforge.jexcelapi:jxl:2.6.12
+# log4j:log4j:1.2.14
+
+# Supporting Libraries (installed with MariaDB)
+galera-4
+gawk
+libdbi-perl
+libconfig-inifiles-perl
+libaio1t64
+rsync
+libcgi-pm-perl
+libfcgi0t64
+libfcgi-perl
+libcgi-fast-perl
+libdbd-mariadb-perl
+libfcgi-bin
+libhtml-template-perl
+libterm-readkey-perl
+mariadb-plugin-provider-bzip2
+mariadb-plugin-provider-lz4
+mariadb-plugin-provider-lzma
+mariadb-plugin-provider-lzo
+mariadb-plugin-provider-snappy
+pv
+
+# Supporting Libraries (installed with Chromium)
+cups-pk-helper
+avahi-utils
+gir1.2-handy-1
+gir1.2-notify-0.7
+libpackagekit-glib2-18
+gir1.2-packagekitglib-1.0
+gir1.2-polkit-1.0
+gir1.2-secret-1
+python3-cups
+python3-cupshelpers
+python3-smbc
+system-config-printer-common
+system-config-printer
+system-config-printer-udev
+
+# Maven Surefire Plugin Dependencies (auto-downloaded)
+maven-surefire-plugin:3.0.0
+surefire-testng:3.0.0
+surefire-api:3.0.0
+surefire-logger-api:3.0.0
+surefire-shared-utils:3.0.0
+surefire-extensions-api:3.0.0
+surefire-extensions-spi:3.0.0
+surefire-booter:3.0.0
+common-java5:3.0.0
+surefire-testng-utils:3.0.0
+surefire-grouper:3.0.0
+
+# Maven Core Dependencies (auto-downloaded)
+maven-common-artifact-filters:3.1.1
+maven-artifact:3.2.5
+maven-core:3.2.5
+maven-settings:3.2.5
+maven-settings-builder:3.2.5
+maven-repository-metadata:3.2.5
+maven-plugin-api:3.2.5
+maven-model-builder:3.2.5
+maven-aether-provider:3.2.5
+
+# Additional Maven/Java Libraries
+plexus-java:1.1.2
+plexus-interpolation:1.21
+plexus-component-annotations:1.5.5
+plexus-classworlds:2.5.2
+org.eclipse.sisu.plexus:0.3.5
+org.eclipse.sisu.inject:0.3.5
+eclipse.aether-util:1.0.0.v20140518
+eclipse.aether-api:1.0.0.v20140518
+eclipse.aether-spi:1.0.0.v20140518
+eclipse.aether-impl:1.0.0.v20140518
+guava:16.0.1
+asm:9.4
+javax.annotation-api:1.2
+cdi-api:1.2
